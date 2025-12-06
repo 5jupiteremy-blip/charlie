@@ -1,3 +1,4 @@
+
 # Free‑Body Diagrams – Driver Torso & Seat‑Back
 
 This file models the forces that a Formula 1 driver experiences during a hard brake.  
@@ -123,5 +124,13 @@ The two vector diagrams are rendered directly in the markdown, so they will appe
   </text>
 </svg>
 
+---
 
+## 3️⃣ How the forces work (quick summary)
 
+| Object | Force (≈ 8 kN for a 70 kg driver at 4.5 g braking) | Direction | What it does |
+|--------|--------------------------------------------------|-----------|--------------|
+| **Driver’s back → seat‑back** | **Action** | Forward (relative to the driver) | Driver’s inertia pushes the seat‑back backward. |
+| **Seat‑back → driver** | **Reaction** | Backward (felt as a forward push on the driver) | Newton’s 3rd law; this is the force you feel on your chest/shoulders. |
+| **Harness & HANS** | Pull backward on driver | Backward | Keeps the driver from sliding forward; distributes the load. |
+| **Chassis & mounts** | Pull forward on seat‑back | Forward | Carries the reaction force into the car structure. |
